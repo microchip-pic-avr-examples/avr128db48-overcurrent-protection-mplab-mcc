@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-overcurrent-protection-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Overcurrent Protection Using the Integrated Op Amps on AVR DB",
         "projectName": "avr128db48-overcurrent-protection-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This repository provides a MCC MPLAB® X project for a core independent overcurrent protection and handling with auto-calibration of current draw trigger level using the internal OPAMP, TCD and AC.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.31.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.7.98"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.0.2"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,46 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Johan Vaarlid",
         "subcategories": [
+            [
+               "Peripherals", "OPAMP"
+            ],
+            [
+               "Peripherals", "AC"
+            ],
+            [
+               "Peripherals", "EVSYS"
+            ],
+            [
+               "Peripherals", "CCL"
+            ],
+            [
+               "Peripherals", "TCD"
+            ],
+            [
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]
         ],
         "peripherals": [
+            "OPAMP","AC","EVSYS","CCL", "TCD"
         ],
         "keywords": [
+	    "Analog Signal Conditioning",
+	    "Operational Amplifier",
+	    "Op Amp",
+	    "Resistor Ladder",
+	    "D/A Converters",
+	    "Low BOM",
+	    "CIP",
+	    "Motor Control",
+	    "Comparators",
+	    "Fan Controllers",
+	    "overcurrent-protection"
         ],
 		"additionalData": {
 			"longDescription": {
