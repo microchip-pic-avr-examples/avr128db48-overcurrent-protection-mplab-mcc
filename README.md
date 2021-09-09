@@ -14,7 +14,7 @@ A new feature introduced in the AVR® DB family is the Analog Signal Conditionin
 
 * [MPLAB® X](https://www.microchip.com/mplab/mplab-x-ide) v5.45 or later
 * [MPLAB® XC8 Compiler](https://www.microchip.com/mplab/compilers) v2.31 or later
-* MPLABX AVR-Dx_DFP version 1.6.88 or later
+* MPLABX AVR-Dx_DFP version 1.8.112 or later
 * For the Atmel START version of this project, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-overcurrent-protection-studio-start.git)
 * For the Microchip Studio version of this project, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-overcurrent-protection-studio.git)
 

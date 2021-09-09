@@ -80,7 +80,7 @@ void ac_calibration(void)
 	_delay_ms(3000);
 	while (calibrating)
 	{
-		ac_trigger_voltage_mv += 75;
+		ac_trigger_voltage_mv += 50;
 		AC0.DACREF = ac_calculate_trigger_voltage(ac_trigger_voltage_mv);
 		_delay_ms(200);//Allow some time for the flag to be raised
 		if (!(AC0.STATUS & AC_CMPIF_bm))
