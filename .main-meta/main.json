@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-overcurrent-protection-mplab-mcc",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Overcurrent Protection Using the Integrated Op Amps on AVR DB",
         "projectName": "avr128db48-overcurrent-protection-mplab-mcc",
         "shortDescription": "This repository provides a MCC MPLAB® X project for a core independent overcurrent protection and handling with auto-calibration of current draw trigger level using the internal OPAMP, TCD and AC.",
